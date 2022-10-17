@@ -24,8 +24,8 @@ class FlightSearch:
         flight_params = {
             "fly_from": orig_city_code,
             "fly_to": dest_city_code,
-            "date_from": from_date,
-            "date_to": to_date,
+            "date_from": from_date.strftime("%d/%m/%Y"),
+            "date_to": to_date.strftime("%d/%m/%Y"),
             "nights_in_dst_from": 7,
             "nights_in_dst_to": 28,
             "flight_type": "round",
