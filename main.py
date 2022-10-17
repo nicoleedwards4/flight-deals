@@ -1,13 +1,19 @@
-#This file will need to use the DataManager,FlightSearch, FlightData, NotificationManager classes to achieve the program requirements.
-import requests
 from datetime import datetime, timedelta
+from flight_search import FlightSearch
 from data_manager import DataManager
-# read flight data
+from notification_manager import NotificationManager
 
-flight_matrix = DataManager.read_data()
+data_manager = DataManager()
+sheet_data = data_manager.read_data()
+flight_search = FlightSearch()
+notification_manager = NotificationManager()
+
+ORIGIN_CITY_CODE = "SEA"
 
 for row in flight_matrix:
-    city = flight_matrix["iataCode"]
+    city = flight_matrix["city"]
+    code = FlightSearch.get_code(city)
+    data_manager
     lowest = flight_matrix["lowestPrice"]
 
 
