@@ -1,8 +1,10 @@
 from pprint import pprint
 import requests
+import os
 
 sheety_endpoint = "https://api.sheety.co/78a262a8e64813691484e7fc96e63021/flightDeals/prices"
-sheety_header = {"Authorization": "Bearer kjsfiuy8y3rk;hsafluy"}
+SHEETY_BEARER = os.environ.get("SHEETY_BEARER")
+sheety_header = {"Authorization": {SHEETY_BEARER}}
 
 
 class DataManager:
