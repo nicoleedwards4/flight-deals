@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c0b187-724b-4120-a573-f296d0555acd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flight_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/notification_manager.py" afterDir="false" />
-    </list>
+    <list default="true" id="36c0b187-724b-4120-a573-f296d0555acd" name="Changes" comment="changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,10 +90,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="FLIGHT_API" value="&quot;Yhnj8M3tmUNPH61OCXEXhOyjksUN-tU5&quot;  " />
-        <env name="SHEETY_BEARER" value="&quot;Bearer kjsfiuy8y3rk;hsafluy&quot; " />
-        <env name="TWILIO_SID" value="&quot;AC687a5e19a09a890258ee201b09c3dae2&quot;" />
-        <env name="TWILIO_TOKEN" value="&quot;097be1f9f3b59fe73e859e4d0c5e73ec&quot;" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\nedwards1\AppData\Local\Microsoft\WindowsApps\python3.7.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -160,6 +150,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665964984459</updated>
     </task>
+    <task id="LOCAL-00001" summary="changes">
+      <created>1666386474946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666386474946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,5 +170,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
