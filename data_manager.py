@@ -1,9 +1,10 @@
 from pprint import pprint
 import requests
 import os
+import creds
 
-sheety_endpoint = "https://api.sheety.co/78a262a8e64813691484e7fc96e63021/flightDeals/prices"
-SHEETY_BEARER = os.environ.get("SHEETY_BEARER")
+sheety_endpoint = creds.SHEETY_ENDPOINT
+SHEETY_BEARER = creds.SHEETY_BEARER
 sheety_header = {"Authorization": {SHEETY_BEARER}}
 
 

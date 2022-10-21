@@ -1,12 +1,14 @@
 from twilio.rest import Client
 import os
+import creds
 
-twilio_sid = os.environ.get("TWILIO_SID")
-twilio_token = os.environ.get("TWILIO_TOKEN")
-from_num = "+13466393809"
-to_num = "+12535345385"
+twilio_sid = creds.TWILIO_SID
+twilio_token = creds.TWILIO_TOKEN
+from_num = creds.FROM_NUM
+to_num = creds.TO_NUM
 
 print(twilio_sid)
+
 
 class NotificationManager:
     def __init__(self):
