@@ -42,6 +42,11 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nedwards1\OneDrive - City of Tacoma\Documents\GitHub\flight-deals" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="data_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flight-deals" />
